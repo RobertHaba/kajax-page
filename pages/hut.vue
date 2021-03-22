@@ -15,7 +15,7 @@
                     <source :srcset="linkPrefix + hutPage.headerImage.formats.large.url" media="(min-width: 1000px)">
                     <img class="header-image" :src="linkPrefix + hutPage.headerImage.formats.medium.url" :alt="hutPage.headerImage.alternativeText">
                 </picture>
-            </div>
+            </div>s
         </header> asd asd
         aaasa asdas  asdasd asdasd  asdas asd
    </div>

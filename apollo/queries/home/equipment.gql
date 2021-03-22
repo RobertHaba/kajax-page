@@ -1,0 +1,14 @@
+
+query accessories {
+  accessories {
+    id
+    title
+    description
+    capacity
+    equipment
+    image{
+      formats
+      alternativeText
+    }
+  }
+}

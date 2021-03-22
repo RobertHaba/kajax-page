@@ -1,0 +1,67 @@
+# Write your query or mutation here
+query hutPage {
+  
+  hutPage {
+    headerTitle
+    subtitleHeader
+    headerImage{
+      alternativeText
+      formats
+    }
+    hutPageContent{
+      title
+      text
+      image{
+      	alternativeText
+        formats
+      }
+    }
+    card{
+      id
+      icon{
+        url
+        alternativeText
+      }
+      title
+      text
+    }
+    furnishings{
+      id
+      title
+      description{
+        id
+        text
+      }
+    }
+    priceCard{
+      id
+      title
+      months
+      priceVariants{
+        id
+        icon{
+          url
+          alternativeText
+        }
+        title
+        price
+        oldPrice
+        shortDescription1
+        shortDescription2
+      }
+    }
+    additionalInformation{
+      title
+      description
+    }
+    hutGallery{
+      id
+      title
+      image{
+        id
+        formats
+        alternativeText
+      }
+    }
+  }
+}

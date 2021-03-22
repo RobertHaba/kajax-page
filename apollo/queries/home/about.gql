@@ -1,0 +1,10 @@
+query abouts {
+  abouts {
+    title
+    text
+    image{
+      formats
+      alternativeText
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Kajax",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "dev": "nuxt",
+        "build": "nuxt build",
+        "start": "nuxt start",
+        "generate": "nuxt generate"
+    },
+    "dependencies": {
+        "-": "0.0.1",
+        "@nuxtjs/apollo": "^4.0.1-rc.5",
+        "@nuxtjs/markdownit": "^2.0.0",
+        "core-js": "^3.8.2",
+        "nuxt": "^2.14.12",
+        "save": "^2.4.0"
+    },
+    "devDependencies": {}
+}

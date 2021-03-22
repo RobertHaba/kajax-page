@@ -1,0 +1,10 @@
+query header{
+  headers {
+    Title
+    Text
+    image{
+      formats
+      alternativeText
+    }
+  }
+}

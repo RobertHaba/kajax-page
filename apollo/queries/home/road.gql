@@ -1,0 +1,24 @@
+query roads {
+  roads {
+    id,
+    title,
+    subtitle,
+    road_time,
+    road_length,
+    road_level,
+    road_barriers,
+    road_transfers,
+    road_map{
+        formats
+        alternativeText
+    },
+    roads_content{
+      id,
+      title,
+      image{
+        formats
+        alternativeText
+      }
+    }
+  }
+}

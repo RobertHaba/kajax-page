@@ -1,0 +1,34 @@
+query roads {
+  roads {
+    id,
+    title,
+    subtitle,
+    road_time,
+    description_site,
+    description,
+    road_length,
+    road_level,
+    road_barriers,
+    road_transfers,
+    road_map{
+    	url
+    },
+    roads_content{
+      id,
+      title,
+      image{
+        formats
+        alternativeText
+      }
+    }
+    road_content_site{
+      title
+      content
+    }
+    road_price{
+      title
+      normal_days
+      weekend_days
+    }
+  }
+}

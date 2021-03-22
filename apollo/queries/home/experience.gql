@@ -1,0 +1,9 @@
+query experiences{
+  experiences{
+    title
+  	description
+  	image{
+    	url
+  	}
+  }
+}

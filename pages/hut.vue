@@ -16,7 +16,7 @@
                     <img class="header-image" :src="linkPrefix + hutPage.headerImage.formats.medium.url" :alt="hutPage.headerImage.alternativeText">
                 </picture>
             </div>
-        </header>
+        </header> asd asd
         aaasa asdas  asdasd asdasd  asdas asd
    </div>
 </template>
